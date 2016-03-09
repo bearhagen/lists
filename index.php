@@ -9,13 +9,18 @@
   </div>
   <dl>
     <dt>
-      <input value="Linux" type="text" readonly>
+      <a href="linux.php"><input value="Linux" type="text" readonly></a>
     </dt>
     <dt>
-      <input value="Sublime" type="text" readonly>
+      <a href="sublime.php"><input value="Sublime" type="text" readonly></a>
     </dt>
     <dt>
-      <input value="Wordpress" type="text" readonly>
+      <a href="wordpress.php"><input value="Wordpress" type="text" readonly></a>
     </dt>
   </dl>
+  <style>
+    nav {
+      display: none;
+    }
+  </style>
 <?php require_once('_templates/footer.php'); ?>
