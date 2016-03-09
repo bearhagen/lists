@@ -2,12 +2,20 @@
   if (!isset($theme)) {
     die('A theme needs to be set.');
   } else {
+    // Theme name
     $theme = htmlspecialchars($theme);
+
+    // Theme files
     $theme_l = strtolower($theme);
+
+    // Theme Color
+    if (!isset($theme_c)) {
+      $theme_c = '#171717';
+    }
   }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, height=device-height">
@@ -27,9 +35,9 @@
   <meta name="application-name" content="<?= $theme; ?> commands">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="#1b1b1b">
-  <meta name="msapplication-TileColor" content="#1b1b1b">
-  <meta name="msapplication-navbutton-color" content="#1b1b1b">
+  <meta name="theme-color" content="<?= $theme_c; ?>">
+  <meta name="msapplication-TileColor" content="<?= $theme_c; ?>">
+  <meta name="msapplication-navbutton-color" content="<?= $theme_c; ?>">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">

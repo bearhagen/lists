@@ -1,5 +1,6 @@
 <?php
   $theme = 'Default';
+  $theme_c = '#FF711B';
   require_once('_templates/head.php');
 ?>
 <body>

@@ -1,5 +1,6 @@
 <?php
   $theme = 'Linux';
+  $theme_c = '#11FF71';
   require_once('_templates/head.php');
 ?>
 <body>

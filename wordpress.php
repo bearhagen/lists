@@ -1,5 +1,6 @@
 <?php
   $theme = 'Wordpress';
+  $theme_c = '#11BBFF';
   require_once('_templates/head.php');
 ?>
 <body>
