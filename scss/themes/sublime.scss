@@ -1,0 +1,50 @@
+@import "../colors.scss";
+
+$cBlack: #263238;
+$cBlackLight: #546e7a;
+$cBlackLightest: #b2ccd6;
+$cWhite: #80cbc4;
+$cGrey: #cdd3de;
+$cRed: #ff5370;
+$cOrange: #fba16a;
+$cYellow: #ffcb6b;
+$cGreen: #c3e88d;
+
+body {
+  font-family: 'Latolight', monospace;
+  font-size: 14px;
+  color: $cWhite;
+  background-color: $cBlack;
+}
+
+::selection {
+  color: $cGreen;
+  background: rgba($cBlackLightest, 0.25);
+}
+
+nav {
+  a {
+    color: $cWhite;
+  }
+}
+
+dt {
+  input,
+  textarea {
+    font-family: monospace;
+    color: $cGreen;
+    border: 1px solid rgba($cBlackLight, 0.25);
+    background-color: $cBlack;
+
+    &:hover,
+    &:focus {
+      color: $cGreen;
+      border-color: $cYellow;
+      background-color: $cBlack;
+    }
+  }
+}
+
+dd {
+  color: $cGrey;
+}

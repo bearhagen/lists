@@ -1,0 +1,29 @@
+@import "../colors.scss";
+
+body {
+  font-family: 'Latolight';
+  font-size: 14px;
+  color: $cBlackLight;
+  background-color: $cGrey;
+}
+
+::selection {
+  color: $cBlack;
+  background: $cPrimary;
+}
+
+dt {
+  input {
+    font-family: monospace;
+    color: $cWhite;
+    border: 1px solid $cGrey;
+    background-color: $cBlue;
+
+    &:hover,
+    &:focus {
+      color: $cBlue;
+      border-color: $cBlue;
+      background-color: $cWhite;
+    }
+  }
+}

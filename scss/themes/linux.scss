@@ -1,0 +1,38 @@
+@import "../colors.scss";
+
+body {
+  font-family: monospace;
+  font-size: 14px;
+  color: $cGreen;
+  background-color: $cBlackLight;
+}
+
+::selection {
+  color: $cBlack;
+  background: $cPrimary;
+}
+
+nav {
+  a {
+    color: $cWhite;
+  }
+}
+
+dt {
+  input {
+    font-family: monospace;
+    color: $cGreen;
+    border: none;
+    background-color: $cBlack;
+
+    &:hover,
+    &:focus {
+      color: $cPrimary;
+      background-color: $cBlack;
+    }
+  }
+}
+
+dd {
+  opacity: 0.5;
+}
