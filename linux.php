@@ -4,9 +4,9 @@
 ?>
 <body>
   <div class="header">
-    <h1>Bear Hagen</h1>
-    <p><?= $theme; ?> Commands & settings</p>
-    <h2>Settings</h2>
+    <h1><?= $theme; ?></h1>
+    <p>Commands & settings</p>
+    <h2>Commands</h2>
   </div>
   <dl>
     <dt>
