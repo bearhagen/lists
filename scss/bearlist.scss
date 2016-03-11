@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 5px;
   position: relative;
-  font-family: monospace;
+  font-family: 'latolight', sans-serif, monospace;
   color: $cBlackLight;
   background-color: $cWhite;
 }
@@ -96,6 +96,53 @@ dt {
 
 dd {
   line-height: 200%;
+}
+
+pre,
+code,
+kbd {
+  color: $cBlackLight;
+  background-color: $cGrey;
+}
+
+pre,
+code {
+  padding: 5px 10px;
+  font-family: monospace;
+}
+
+kbd {
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+  padding: 3px;
+  color: darken($cGrey, 75%);
+  border: 3px solid darken($cGrey, 15%);
+  border-top: 2px solid darken($cGrey, 10%);
+  border-bottom-color: darken($cGrey, 30%);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'latobold';
+  -webkit-transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition:    all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition:      all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  transition:         all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    padding: 2px;
+    font-size: 0.8em;
+    margin-left: 6px;
+    margin-right: 7px;
+    border-width: 2px;
+  }
+
+  &::selection {
+    color: $cPrimary;
+    background: transparent;
+  }
 }
 
 .success {
