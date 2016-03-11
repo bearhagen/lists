@@ -11,20 +11,41 @@
   </div>
   <dl>
     <dt>
-      <textarea rows="13" readonly>
-      {
-        "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-        "detect_indentation": false,
-        "rulers":
-        [
-          120
-        ],
-        "tab_size": 2,
-        "theme": "Material-Theme.sublime-theme",
-        "translate_tabs_to_spaces": true,
-        "word_wrap": false
-      }
+      <textarea rows="18" readonly>
+{
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "detect_indentation": false,
+  "font_size": 12,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    120
+  ],
+  "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "word_wrap": false
+}
       </textarea>
+      <dd>User settings</dd>
+    </dt>
+    <dt>
+      <textarea rows="9" readonly>
+[
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+  { "keys": ["ctrl+pagedown"], "command": "next_view_in_stack" },
+  { "keys": ["ctrl+pageup"], "command": "prev_view_in_stack" },
+  { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+]
+      </textarea>
+      <dd>User key bindings</dd>
+      <dd>"Fixes" <kbd>ctrl</kbd> + <kbd>tab</kbd> and <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>tab</kbd></dd>
+      <dd>Also brings back the <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>P</kbd> for project quick switch</dd>
     </dt>
     
     <dt>
