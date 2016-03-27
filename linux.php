@@ -44,7 +44,7 @@
     <dd><span class="warning">WARN:</span> Might cause issues on servers with 512MB of RAM or less</dd>
 
     <dt>
-      <input value="sudo le-renew-webroot example.com" type="text" readonly>
+      <input value="sudo -H le-renew-webroot example.com" type="text" readonly>
     </dt>
     <dd>Renew domain for example.com</dd>
     <dd>If you don't specify domain, default domain will be run.</dd>
