@@ -10,13 +10,13 @@
   </div>
   <dl>
     <dt>
-      <a href="linux.php"><input value="Linux" type="text" readonly></a>
+      <a href="linux"><input value="Linux" type="text" readonly></a>
     </dt>
     <dt>
-      <a href="sublime.php"><input value="Sublime" type="text" readonly></a>
+      <a href="sublime"><input value="Sublime" type="text" readonly></a>
     </dt>
     <dt>
-      <a href="wordpress.php"><input value="Wordpress" type="text" readonly></a>
+      <a href="wordpress"><input value="Wordpress" type="text" readonly></a>
     </dt>
   </dl>
   <style>
