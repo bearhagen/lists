@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding: 5px;
   position: relative;
+  font-weight: lighter;
   font-family: 'Loraregular', sans, monospace;
   color: $cBlackLight;
   background-color: $cWhite;
@@ -50,6 +51,11 @@ nav {
 
 .header {
   text-align: center;
+
+  h1,
+  h2 {
+    font-weight: lighter;
+  }
 
   h1 {
     margin: 50px auto 15px;
@@ -90,7 +96,8 @@ dt {
   }
 
   + dd {
-    font-weight: 700;
+    font-weight: bold;
+    font-family: 'Lorarbold';
   }
 }
 
