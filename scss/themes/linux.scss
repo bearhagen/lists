@@ -1,21 +1,15 @@
 @import "../colors.scss";
+@import "default.scss";
 
 body {
   font-family: monospace;
-  font-size: 14px;
   color: $cGreen;
-  background-color: $cBlackLight;
+  background-color: $cGrey;
 }
 
 ::selection {
-  color: $cBlack;
-  background: $cPrimary;
-}
-
-nav {
-  a {
-    color: $cWhite;
-  }
+  color: $cWhite;
+  background: $cGreen;
 }
 
 dt {
@@ -27,12 +21,12 @@ dt {
 
     &:hover,
     &:focus {
-      color: $cPrimary;
+      color: $cGrey;
       background-color: $cBlack;
     }
   }
 }
 
 dd {
-  opacity: 0.5;
+  color: $cGreyDark;
 }

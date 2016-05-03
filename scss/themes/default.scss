@@ -1,9 +1,9 @@
 @import "../colors.scss";
 
 body {
-  font-family: 'Latolight';
-  font-size: 14px;
-  color: $cBlackLight;
+  font-family: 'Loraregular';
+  font-size: 16px;
+  color: $cGreyDark;
   background-color: $cGrey;
 }
 
@@ -25,8 +25,4 @@ dt {
       background-color: $cBlack;
     }
   }
-}
-
-dd {
-  opacity: 0.5;
 }

@@ -10,7 +10,7 @@
 
     // Theme Color
     if (!isset($theme_c)) {
-      $theme_c = '#171717';
+      $theme_c = '#FCB859';
     }
   }
 ?>
@@ -27,8 +27,8 @@
   <!-- Open Graph data -->
   <meta property="og:title" content="<?= $theme; ?> commands">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://bearhagen.com">
-  <meta property="og:image" content="http://bearhagen.com/image.jpg">
+  <meta property="og:url" content="https://bearhagen.com">
+  <meta property="og:image" content="https://bearhagen.com/image.jpg">
   <meta property="og:description" content="Bear Hagen's list of <?= $theme; ?> commands">
   <!-- App information -->
   <link rel="manifest" href="/manifest.json">
@@ -52,6 +52,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/bearlist.css">
   <link rel="stylesheet" type="text/css" href="css/themes/<?= $theme_l; ?>.css">
+  <link rel="stylesheet" type="text/css" href="fonts/lora/lora.css">
   <link rel="stylesheet" type="text/css" href="fonts/lato/lato.css">
 </head>
 <body>

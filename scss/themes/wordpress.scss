@@ -1,15 +1,9 @@
 @import "../colors.scss";
-
-body {
-  font-family: 'Latolight';
-  font-size: 14px;
-  color: $cBlackLight;
-  background-color: $cGrey;
-}
+@import "default.scss";
 
 ::selection {
   color: $cBlack;
-  background: $cPrimary;
+  background: $cBlue;
 }
 
 dt {
