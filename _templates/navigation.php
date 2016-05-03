@@ -1,6 +1,6 @@
 <nav>
-  <a href="index.php">All Lists</a>
-  <a href="linux.php">Linux</a>
-  <a href="sublime.php">Sublime</a>
-  <a href="wordpress.php">Wordpress</a>
+  <a href="./">All Lists</a>
+  <a href="linux">Linux</a>
+  <a href="sublime">Sublime</a>
+  <a href="wordpress">Wordpress</a>
 </nav>
