@@ -16,24 +16,23 @@
     <dd>Add user to www-data</dd>
 
     <dt>
-      <input value="sudo chown www-data:www-data folder -R" type="text" readonly>
+      <input value="sudo chown www-data:www-data . -R" type="text" readonly>
     </dt>
     <dd>set www-data to owner of folder</dd>
 
     <dt>
-      <input value="sudo find path -type d -exec chmod 755 {} +" type="text" readonly>
+      <input value="sudo find . -type d -exec chmod 775 {} +" type="text" readonly>
     </dt>
     <dd>Change folder permissions</dd>
-    <dd>755 For owner write only</dd>
-    <dd>775 For owner and group write</dd>
 
     <dt>
-      <input value="sudo find path -type f -exec chmod 644 {} +" type="text" readonly>
+      <input value="sudo find . -type f -exec chmod 664 {} +" type="text" readonly>
     </dt>
     <dd>Change file permissions</dd>
 
     <dt>
       <input value="sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com" type="text" readonly>
+      <input value="sudo ln -s /etc/apache2/sites-available/example.com.conf /etc/apache2/sites-enabled/example.com.conf" type="text" readonly>
     </dt>
     <dd>Create symbolic link between sites-available and sites-enabled</dd>
 
