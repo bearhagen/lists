@@ -49,5 +49,10 @@
     <dd>If you don't specify domain, default domain will be run.</dd>
     <dd>Check /usr/local/etc/le-renew-webroot.ini for default settings</dd>
     <dd>Go to /usr/local/etc/ to add more domains. Add file le-cli-example.com.ini</dd>
+
+    <dt>
+      <input value="sudo -H /opt/letsencrypt/letsencrypt-auto renew" type="text" readonly>
+    </dt>
+    <dd>Renew all certificates</dd>
   </dl>
 <?php require_once('_templates/footer.php'); ?>
