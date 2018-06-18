@@ -11,9 +11,9 @@
   </div>
   <dl>
     <dt>
-      <input value="New-SelfSignedCertificate -DnsName "example.com", "www.example.com"" type="text" readonly>
+      <input value='New-SelfSignedCertificate -DnsName "example.com", "www.example.com"' type="text" readonly>
     </dt>
     <dd>Create a self-signed certificate</dd>
-    <dd><span class="info">NOTE:</span>Requires admin</dd>
+    <dd><span class="note">NOTE:</span> Requires admin</dd>
   </dl>
 <?php require_once('_templates/footer.php'); ?>
