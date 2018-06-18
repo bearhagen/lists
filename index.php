@@ -13,6 +13,9 @@
       <a href="linux"><input value="Linux" type="text" readonly></a>
     </dt>
     <dt>
+      <a href="windows"><input value="Windows" type="text" readonly></a>
+    </dt>
+    <dt>
       <a href="sublime"><input value="Sublime" type="text" readonly></a>
     </dt>
     <dt>
