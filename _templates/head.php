@@ -20,17 +20,16 @@ if (!isset($theme_c)) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, height=device-height">
-  <meta http-equiv="X-Frame-Options" content="deny">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!-- General -->
   <title><?= $theme; ?> commands</title>
-  <meta name="description" content="Bear Hagen's list of <?= $theme; ?> commands">
+  <meta name="description" content="Bjørnar Hagen's list of <?= $theme; ?> commands">
   <!-- Open Graph data -->
   <meta property="og:title" content="<?= $theme; ?> commands">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://bearhagen.com">
-  <meta property="og:image" content="https://bearhagen.com/image.jpg">
-  <meta property="og:description" content="Bear Hagen's list of <?= $theme; ?> commands">
+  <meta property="og:url" content="https://bjornar.dev">
+  <meta property="og:image" content="https://bjornar.dev/image.jpg">
+  <meta property="og:description" content="Bjørnar Hagen's list of <?= $theme; ?> commands">
   <!-- App information -->
   <link rel="manifest" href="/manifest.json">
   <meta name="application-name" content="<?= $theme; ?> commands">
