@@ -1,21 +1,22 @@
 <?php
-  if (!isset($theme)) {
-    die('A theme needs to be set.');
-  } else {
-    // Theme name
-    $theme = htmlspecialchars($theme);
+if (!isset($theme)) {
+  $theme = 'Default';
+}
 
-    // Theme files
-    $theme_l = strtolower($theme);
+// Theme name
+$theme = htmlspecialchars($theme);
 
-    // Theme Color
-    if (!isset($theme_c)) {
-      $theme_c = '#FCB859';
-    }
-  }
+// Theme files
+$theme_l = strtolower($theme);
+
+// Theme Color
+if (!isset($theme_c)) {
+  $theme_c = '#FCB859';
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, height=device-height">
@@ -55,5 +56,6 @@
   <link rel="stylesheet" type="text/css" href="fonts/lora/lora.css">
   <link rel="stylesheet" type="text/css" href="fonts/lato/lato.css">
 </head>
+
 <body>
-<?php require_once('navigation.php'); ?>
+  <?php require_once('navigation.php'); ?>

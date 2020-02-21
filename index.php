@@ -1,11 +1,10 @@
 <?php
-  $theme = 'Default';
-  $theme_c = '#FCB859';
-  require_once('_templates/head.php');
+require_once('_templates/head.php');
 ?>
+
 <body>
   <div class="header">
-    <h1>Bear Hagen</h1>
+    <h1>Bjørnar Hagen</h1>
     <p>Lists with commands & settings</p>
   </div>
   <dl>
@@ -30,4 +29,4 @@
       display: none;
     }
   </style>
-<?php require_once('_templates/footer.php'); ?>
+  <?php require_once('_templates/footer.php'); ?>
