@@ -21,6 +21,9 @@ require_once('_templates/head.php');
       <a href="sublime"><input value="Sublime" type="text" readonly></a>
     </dt>
     <dt>
+      <a href="vscode"><input value="VS Code" type="text" readonly></a>
+    </dt>
+    <dt>
       <a href="wordpress"><input value="Wordpress" type="text" readonly></a>
     </dt>
   </dl>
