@@ -28,6 +28,32 @@ require_once('_templates/head.php');
             <input value="chmod -R +a '_www allow read,write,append,readattr,writeattr,readextattr,readsecurity,file_inherit' ~/Dev/Web" type="text" readonly>
         </dt>
         <dd><span class="note">Mac OS:</span> Give _www (apache group) permissions to ~/Dev/Web</dd>
+
+
+        <dt>
+            <textarea rows="16">
+const form = document.querySelector('form');
+const data = new FormData(form);
+
+let xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        let response = null;
+
+        try {
+            response = JSON.parse(xhr.responseText);
+        } catch (e) {
+            console.error(e);
+        }
+
+        handleSuccess(input, response);
+    }
+};
+xhr.open("POST", form.action, true);
+xhr.send(data);
+            </textarea>
+        </dt>
+        <dd>Extensions</dd>
     </dl>
     <div class="header">
         <h2>Settings</h2>
